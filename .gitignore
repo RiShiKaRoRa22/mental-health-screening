@@ -41,13 +41,29 @@ data/
 
 # ------------------------------
 
-# Model files (IGNORE)
+# Allow ONLY results CSVs
+
+# ------------------------------
+
+!results/
+!results/*.csv
+
+# ------------------------------
+
+# Model files (IGNORE globally)
 
 # ------------------------------
 
 *.pkl
 *.h5
 *.joblib
+
+# Allow ONLY models folder
+
+!models/
+!models/*.pkl
+!models/*.h5
+!models/*.joblib
 
 # ------------------------------
 
