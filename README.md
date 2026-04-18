@@ -50,10 +50,6 @@ This project develops a **machine learning-based mental health screening system*
 - **PHQ-9** is highly reliable for depression screening (100% accuracy)
 - Stacking ensemble improved accuracy by 5% over individual models
 
-## 💡 Why 100% Depression Accuracy?
-
-PHQ-9 is a standardized clinical tool where severity is **mathematically calculated** from responses (total score 0-27 maps to fixed severity levels), making prediction deterministic.
-
 ## 🛠️ Technologies Used
 
 - Python 3.11
